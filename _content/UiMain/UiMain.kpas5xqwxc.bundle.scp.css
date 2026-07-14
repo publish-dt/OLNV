@@ -1,0 +1,471 @@
+/* _content/UiMain/Components/Left.razor.rz.scp.css */
+.overriding[b-tnxylxzt5e]  .daterangepicker {
+    background-color: #136;
+    border-radius: 0px;
+    border-width: 1px 2px;
+    border-color: #8be #9cf #9cf #8be;
+}
+
+    .overriding[b-tnxylxzt5e]  .daterangepicker .calendar-table {
+        background-color: #136;
+    }
+
+    .overriding[b-tnxylxzt5e]  .daterangepicker .drp-calendar.left {
+        padding: 0px 1px 1px 1px;
+    }
+
+        .overriding[b-tnxylxzt5e]  .daterangepicker .drp-calendar.left .calendar-table {
+            padding-right: 0px;
+        }
+
+            .overriding[b-tnxylxzt5e]  .daterangepicker .drp-calendar.left .calendar-table .table-condensed .activeday {
+                color: #DDD !important;
+                background: none !important;
+                border: 1px solid #FFFFFF !important;
+                border-radius: 0px;
+                font-weight: bold;
+            }
+            .overriding[b-tnxylxzt5e]  .daterangepicker .drp-calendar.left .calendar-table .table-condensed .katren {
+                color: #DDD !important;
+                background: #406092 !important;
+                border-radius: 0px;
+                font-weight: bold;
+            }
+            .overriding[b-tnxylxzt5e]  .daterangepicker .drp-calendar.left .calendar-table .table-condensed .dict-poem {
+                color: #DDD !important;
+                background: #406092 !important;
+                border: 1px solid #FFFFFF !important;
+                border-radius: 0px;
+                font-weight: bold;
+            }
+
+.overriding[b-tnxylxzt5e]  .table-condensed > tbody > tr > td, .overriding[b-tnxylxzt5e]  .table-condensed > tbody > tr > th,
+.overriding[b-tnxylxzt5e]  .table-condensed > tfoot > tr > td, .overriding[b-tnxylxzt5e]  .table-condensed > tfoot > tr > th,
+.overriding[b-tnxylxzt5e]  .table-condensed > thead > tr > td, .overriding[b-tnxylxzt5e]  .table-condensed > thead > tr > th {
+    padding: 0px;
+    border: none;
+}
+
+.overriding[b-tnxylxzt5e]  td.off, td.off.in-range[b-tnxylxzt5e], td.off.start-date[b-tnxylxzt5e], td.off.end-date[b-tnxylxzt5e] {
+    background-color: transparent;
+}
+
+.overriding[b-tnxylxzt5e]  .next:hover, .overriding[b-tnxylxzt5e]  .prev:hover {
+    background-color: transparent;
+}
+.overriding[b-tnxylxzt5e]  .next span, .overriding[b-tnxylxzt5e]  .prev span {
+    color: #fff;
+    border: solid #DDD;
+    border-width: 0 2px 2px 0;
+    border-radius: 0;
+    display: inline-block;
+    padding: 3px;
+}
+/* _content/UiMain/Layout/PrintLayout.razor.rz.scp.css */
+/*Стили для всего сайта*/
+
+@font-face {
+    font-family: "MyriadProCondensed";
+    src: local("Myriad Pro Condensed"), local("MyriadPro-Cond"), url("/_content/UIMain/fonts/MyriadPro-Cond.woff") format("woff"), url("/_content/UIMain/fonts/MyriadPro-Cond.otf") format("opentype"), url("/_content/UIMain/fonts/MyriadPro-Cond.svg#MyriadPro-Cond") format("svg");
+}
+
+.body[b-yp1ktwtxym] {
+    min-height: 100%;
+    background: #fff;
+    color: #000; /*цвет текста на странице печати*/
+    font-family: 'MyriadProCondensed', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100vh;
+}
+
+/* Content */
+[b-yp1ktwtxym] .content {
+    min-height: 250px;
+    padding: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+[b-yp1ktwtxym] .left-print {
+    padding-left: 15pt;
+    padding-bottom: 24pt;
+}
+/*прерывистая граница слева + внутренние отступы до текста*/
+[b-yp1ktwtxym] .points-left {
+    border-left: 1px dashed #666;
+}
+/*Подпись под Посланием со ссылкой и "Подготовлено к печати"*/
+[b-yp1ktwtxym] .print2 {
+    font: 8pt/9pt Arial,sans-serif;
+    color: #aaa;
+    text-align: center;
+}
+
+/* H1 - H6 Шрифты */
+[b-yp1ktwtxym] h1,
+[b-yp1ktwtxym] h2,
+[b-yp1ktwtxym] h3,
+[b-yp1ktwtxym] h4,
+[b-yp1ktwtxym] h5,
+[b-yp1ktwtxym] h6,
+[b-yp1ktwtxym] .h1,
+[b-yp1ktwtxym] .h2,
+[b-yp1ktwtxym] .h3,
+[b-yp1ktwtxym] .h4,
+[b-yp1ktwtxym] .h5,
+[b-yp1ktwtxym] .h6 {
+    font-family: 'MyriadProCondensed', sans-serif;
+}
+/*Заголовок Послания при печати*/
+[b-yp1ktwtxym] h1 {
+    font-weight: 700 !important;
+    font-size: 22px !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    text-align: center;
+    border-bottom: 4px double #000000 !important;
+    width: 100%;
+    line-height: 1.7;
+}
+
+[b-yp1ktwtxym] H2 {
+    padding: 2pt 0 1pt 5pt;
+    font-size: 20px !important;
+    font-weight: 400;
+    margin: 20pt 0 8pt 0;
+    border-left: 1px solid #333333;
+    border-bottom: 1px solid #333;
+}
+
+[b-yp1ktwtxym] H3 {
+    font-weight: 400;
+    margin: 15pt 0 5pt 0;
+}
+
+[b-yp1ktwtxym] H4 {
+    font-weight: 400;
+    line-height: 0.9;
+    margin: 0 0 6pt 0;
+    text-align: center;
+}
+
+[b-yp1ktwtxym] a {
+    color: #000; /*переопределяем цвет ссылки*/
+    text-decoration: underline;
+}
+
+    [b-yp1ktwtxym] a:hover, a:focus[b-yp1ktwtxym] {
+        color: #000; /*переопределяем цвет ссылки*/
+    }
+
+[b-yp1ktwtxym] P {
+    line-height: 1.0;
+    text-indent: 16pt;
+    text-align: justify;
+    margin: 0 0 4pt 0;
+}
+
+    [b-yp1ktwtxym] P B {
+        font-weight: 600;
+    }
+
+    [b-yp1ktwtxym] P.c0 {
+        text-indent: 0;
+        text-align: justify;
+        margin: 0 0 4pt 0;
+        font-size: 20px !important;
+    }
+
+    [b-yp1ktwtxym] P.c2 {
+        margin: 0 0 0 28pt;
+    }
+
+    [b-yp1ktwtxym] P.c3 {
+        margin: 0 0 6pt 28pt;
+    }
+
+    [b-yp1ktwtxym] P.c4 {
+        margin: 0 0 0 34pt;
+    }
+
+    [b-yp1ktwtxym] P.c5 {
+        margin: 0 0 6pt 34pt;
+    }
+
+    [b-yp1ktwtxym] P.c6 {
+        margin: 6pt 0 0 0;
+        text-indent: 0;
+    }
+
+    [b-yp1ktwtxym] P.noind {
+        text-indent: 0;
+        text-align: left;
+    }
+
+    [b-yp1ktwtxym] P.nomrg {
+        margin: 0;
+    }
+
+    [b-yp1ktwtxym] P.cont {
+        margin: 0 0 2pt 0;
+    }
+
+    [b-yp1ktwtxym] P.stars {
+        text-align: center;
+        text-indent: 0;
+        margin: 10pt 0 4pt 0;
+    }
+
+[b-yp1ktwtxym] DIV.cont {
+    padding: 2pt 0 0 6.5pt;
+    font-size: 20px;
+    line-height: 1.0;
+}
+
+[b-yp1ktwtxym] DIV.title {
+    width: 100%;
+    padding: 0 0 2px 0;
+    border-bottom: 1px solid #111;
+    margin: 10pt 0;
+}
+
+[b-yp1ktwtxym] DIV.cont DIV {
+    width: 420px;
+    margin: 3px 4px 2px -6px;
+    padding: 1px 4px 3px 4px;
+    border: 1px solid #000;
+    background-color: #f0f0f0;
+}
+
+[b-yp1ktwtxym] SMALL {
+    font-family: MyriadProCondensed,Arial,Helvetica,sans-serif;
+    font-size: 85%;
+    line-height: 0.8;
+    color: #666;
+}
+
+[b-yp1ktwtxym] UL, OL[b-yp1ktwtxym] {
+    margin: 0 0 2pt -12pt;
+}
+
+    [b-yp1ktwtxym] UL LI, OL LI[b-yp1ktwtxym] {
+        font-family: MyriadProCondensed,Arial,Helvetica,sans-serif;
+        font-size: 20px;
+        line-height: 1.0;
+        color: #333;
+        line-height: 0.9;
+        margin: 0;
+    }
+
+[b-yp1ktwtxym] BLOCKQUOTE {
+    margin: 6px 0;
+    padding: 3pt 21pt;
+    border: 1px dashed #bbb;
+}
+
+[b-yp1ktwtxym] CAPTION {
+    font-family: MyriadProCondensed,Arial,Helvetica,sans-serif;
+    font-size: 20px;
+    color: #333;
+    padding: 4pt 0;
+    text-align: center;
+}
+
+[b-yp1ktwtxym] TD {
+    vertical-align: top;
+}
+
+[b-yp1ktwtxym] TABLE.dict, TABLE.tolk[b-yp1ktwtxym], TABLE.ext[b-yp1ktwtxym], TABLE.ext TABLE[b-yp1ktwtxym] {
+    width: 100%;
+}
+
+    [b-yp1ktwtxym] TABLE.dict TD {
+        font-family: MyriadProCondensed,Arial,Helvetica,sans-serif;
+        font-size: 20px;
+        line-height: 1.0;
+        color: #111;
+    }
+
+    [b-yp1ktwtxym] TABLE.dict TH {
+        width: 2pt;
+        font-family: MyriadProCondensed,Arial,Helvetica,sans-serif;
+        font-size: 20px;
+        line-height: 1.0;
+        font-weight: 400;
+        color: #111;
+    }
+
+[b-yp1ktwtxym] TABLE.revel {
+    width: 90%;
+}
+
+    [b-yp1ktwtxym] TABLE.revel TD {
+        padding: 1pt 3pt;
+        font-family: MyriadProCondensed,Arial,Helvetica,sans-serif;
+        font-size: 20px;
+        line-height: 1.0;
+        color: #111;
+    }
+
+[b-yp1ktwtxym] TABLE.tolk TD {
+    padding: 1pt 0 1pt 7pt;
+    font-family: MyriadProCondensed,Arial,Helvetica,sans-serif;
+    font-size: 115%;
+    line-height: 1.0;
+    color: #111;
+}
+
+[b-yp1ktwtxym] TABLE.int TR {
+    background-color: #f0f0f0;
+}
+
+[b-yp1ktwtxym] TABLE.int TH {
+    width: 230px;
+    padding: 3px 4px 4px 4px;
+    line-height: 0.9;
+    font-weight: 400;
+    color: #111111;
+    text-align: left;
+}
+
+[b-yp1ktwtxym] TABLE.int TD {
+    padding: 3px 4px 4px 4px;
+    vertical-align: middle;
+    font-family: MyriadProCondensed,Arial,Helvetica,sans-serif;
+    font-size: 120%;
+    line-height: 0.9;
+    color: #333333;
+}
+
+[b-yp1ktwtxym] TD.c0 {
+    background-color: #bbb;
+}
+
+[b-yp1ktwtxym] TD.c1 {
+    width: 7px;
+    background-color: #bbb;
+}
+
+[b-yp1ktwtxym] TD.c2 {
+    width: 100%;
+    height: 8px;
+    background-color: #ddd;
+}
+
+[b-yp1ktwtxym] DIV.hr {
+    width: 100%;
+    height: 1px;
+    margin: 7pt 0 12pt 0;
+    border-top: 1px dashed #111;
+}
+
+
+[b-yp1ktwtxym] DIV.cont2 {
+    padding: 2pt 0 8pt 6.5pt;
+    font-family: MyriadProCondensed,Arial,Helvetica,sans-serif;
+    font-size: 20px;
+    line-height: 1.0;
+    color: #111;
+}
+
+[b-yp1ktwtxym] SPAN.c2, SPAN.c3[b-yp1ktwtxym], SPAN.c4[b-yp1ktwtxym], SPAN.c5[b-yp1ktwtxym] {
+    text-indent: 0;
+    font-style: italic;
+    color: #333;
+}
+
+[b-yp1ktwtxym] SPAN.c1 {
+    font-style: italic;
+    color: #333;
+}
+
+[b-yp1ktwtxym] DIV.years {
+    width: 100%;
+    margin: 15pt 0 0 0;
+    padding: 12pt 0 0 0;
+    line-height: 1.0;
+    color: #111;
+    text-align: center;
+    border-top: 1px solid #000000;
+}
+
+    [b-yp1ktwtxym] DIV.years A {
+        font-weight: 600;
+    }
+
+[b-yp1ktwtxym] DIV A.download {
+    font: 13pt/14pt MyriadProCondensed,Arial,Helvetica,sans-serif;
+    line-height: 0.9;
+    color: #000;
+}
+
+    [b-yp1ktwtxym] DIV A.download:link, DIV A.download:visited[b-yp1ktwtxym] {
+        text-decoration: none;
+    }
+
+    [b-yp1ktwtxym] DIV A.download:hover, DIV A.download:active[b-yp1ktwtxym] {
+        text-decoration: underline;
+    }
+
+/* Текст Катрена */
+[b-yp1ktwtxym] P.poem {
+    margin: 12pt 0;
+    text-indent: 0;
+}
+
+/*Дата Послания*/
+[b-yp1ktwtxym] .date {
+    color: #000 !important;
+    margin-right: 5pt;
+}
+
+[b-yp1ktwtxym] .color-white {
+    color: #000000;
+}
+
+
+
+
+
+[b-yp1ktwtxym] #text {
+    padding: 0 15pt 24pt 15pt;
+    border-left: 1px dashed #666;
+}
+
+[b-yp1ktwtxym] #addr {
+    width: 500px;
+    white-space: nowrap;
+    border: 1px solid #111;
+    margin: 5pt 0 6pt 0;
+    padding: 6pt 10pt 3pt 10pt;
+}
+
+    [b-yp1ktwtxym] #addr P {
+        text-align: center;
+        text-indent: 0;
+        color: #000;
+    }
+
+[b-yp1ktwtxym] #spoiler {
+    text-align: right;
+    padding: 1pt 2pt 0 0;
+}
+
+[b-yp1ktwtxym] #download {
+    width: 20%;
+    text-align: center;
+}
+
+[b-yp1ktwtxym] #hear {
+    width: 50%;
+    text-align: right;
+}
+
+.btn-link[b-yp1ktwtxym] {
+    color: #0071c1 !important;
+}

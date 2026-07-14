@@ -1,0 +1,30 @@
+.tooltipster-sidetip.tooltipster-default.tooltipster-default-customized .tooltipster-box {
+	border: 2px solid #4f4f4f;
+	color: azure;
+}
+
+.tooltipster-sidetip.tooltipster-default.tooltipster-default-customized .tooltipster-content {
+	padding: 2px;
+	background: #808080;
+	font-size: 12px;
+}
+
+.tooltipster-sidetip.tooltipster-default.tooltipster-default-customized .tooltipster-arrow {
+	height: 0px;
+	margin-left: 0px;
+	width: 0px
+}
+
+/*.my-custom-theme {
+	border-radius: 5px;
+	border: 2px solid #808080;
+	background: #808080;
+	color: #fff;
+}
+.my-custom-theme .tooltipster-content {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 8px 10px;
+	background: #808080;
+}*/
