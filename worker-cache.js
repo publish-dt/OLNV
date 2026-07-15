@@ -1,7 +1,7 @@
 const cacheDataName = 'data';
 
 async function onFetchImage(event) {
-    console.log(`request.destination 5: ${event.request.destination}`);
+    //console.log(`request.destination 5: ${event.request.destination}`);
 
     let cachedResponse = null;
     if (event.request.method === 'GET' && event.request.destination === 'image') {
