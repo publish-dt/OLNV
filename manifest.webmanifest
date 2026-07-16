@@ -1,6 +1,6 @@
 {
-  "name": "PWA",
-  "short_name": "PWA",
+  "name": "Откровения людям Нового века",
+  "short_name": "Откровения",
   "id": "./",
   "start_url": "./",
   "display": "standalone",
@@ -9,14 +9,9 @@
   "prefer_related_applications": false,
   "icons": [
     {
-      "src": "icon-512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    },
-    {
-      "src": "icon-192.png",
-      "type": "image/png",
-      "sizes": "192x192"
+      "src": "favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "16x16"
     }
   ]
 }
