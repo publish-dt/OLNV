@@ -13,3 +13,7 @@ window.focusElement = (id) => {
     const element = document.getElementById(id);
     element.focus();
 }
+
+window.collapseMenu = () => {
+    $('#bs-navbar').collapse('hide');
+}

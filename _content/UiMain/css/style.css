@@ -24,9 +24,9 @@ body {
 	/*  margin: 0px 1%;*/
 	background: #000 url("../img/stars.gif") repeat fixed 0% 0%;
 	color: #FFFFFF; /*цвет текста на сайте*/
-	font-family: 'MyriadProCondensed', sans-serif;
 	font-weight: 400;
 	font-size: 18px;
+	font-family: 'MyriadProCondensed', sans-serif;
 	overflow-x: hidden;
 	overflow-y: auto;
 	/*height: 100vh; при этом скроллинг не работает */

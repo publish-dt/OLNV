@@ -64,8 +64,8 @@ export async function setupDatabaseAsync(filename) {
     }
 }*/
 
-
-export function setupDatabase(filename) {
+window.setupDatabase = (filename) => {
+//export function setupDatabase(filename) {
     return new Promise((resolve, reject) => {
         console.log(`Setting up database: ${filename}`);
 
@@ -154,7 +154,8 @@ export function setupDatabase(filename) {
     });
 }
 
-export function syncDatabaseToIndexedDb(filename) {
+window.syncDatabaseToIndexedDb = (filename) => {
+//export function syncDatabaseToIndexedDb(filename) {
     return new Promise((resolve, reject) => {
         console.log(`Syncing database to IndexedDB: ${filename}`);
 
@@ -219,6 +220,12 @@ export function syncDatabaseToIndexedDb(filename) {
             }
         };
     });
+}
+
+window.getbasePath = () => {
+//export async function getbasePath() {
+    const basePath = new URL(document.baseURI).pathname; // (document.querySelector('base') || {}).href;
+    return basePath;
 }
 
 /*export async function ExistsDBCacheAsync() {
